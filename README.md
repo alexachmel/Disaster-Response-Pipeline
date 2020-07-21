@@ -16,7 +16,8 @@ NLTK https://www.nltk.org/<br>
 Sklearn https://scikit-learn.org/stable/<br>
 
 
-### There are 3 Components in this project:
+
+### There are 3 Components of this project:
 1. __ETL Pipeline__<br>
 In a Python script, process_data.py, there's a data cleaning pipeline that:
 - Loads the messages and categories datasets
@@ -35,6 +36,7 @@ In a Python script, train_classifier.py, there's a machine learning pipeline tha
 - The flask web app including data visualizations using Plotly in the web app.
 
 
+
 ### An explanation of the files
 1. ETL Pipeline Preparation.ipynb / ETL Pipeline Preparation.pdf # cleans data and stores in database<br>
 2. ML Pipeline Preparation.ipynb / ML Pipeline Preparation.pdf # trains classifier and saves<br>
@@ -51,6 +53,7 @@ In a Python script, train_classifier.py, there's a machine learning pipeline tha
 5. models<br>
 5.1 train_classifier.py<br>
 5.2 classifier.pkl  # saved model <br>
+
 
 
 ### How to run the Python scripts and web app
