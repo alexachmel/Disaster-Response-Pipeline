@@ -2,7 +2,8 @@
 
 For this project I applied data engineering skills to analyze disaster data from Figure Eight to build a model for an API that classifies disaster messages.
 
-Installations: In this project Python 3.x and the following Python libraries were installed:<br>
+### Installations:
+In this project Python 3.x and the following Python libraries were installed:<br>
 Pandas https://pandas.pydata.org/<br>
 Numpy https://numpy.org/<br>
 Plotly https://plotly.com/<br>
@@ -16,13 +17,13 @@ Sklearn https://scikit-learn.org/stable/<br>
 
 
 ### There are 3 Components in this project:
-1. __ETL Pipeline__
+1. __ETL Pipeline__<br>
 In a Python script, process_data.py, there's a data cleaning pipeline that:
 - Loads the messages and categories datasets
 - Merges the two datasets
 - Cleans the data
 - Stores it in a SQLite database
-2. __ML Pipeline__
+2. __ML Pipeline__<br>
 In a Python script, train_classifier.py, there's a machine learning pipeline that:
 - Loads data from the SQLite database
 - Splits the dataset into training and test sets
@@ -30,26 +31,26 @@ In a Python script, train_classifier.py, there's a machine learning pipeline tha
 - Trains and tunes a model using GridSearchCV
 - Outputs results on the test set
 - Exports the final model as a pickle file
-3. __Flask Web App__
+3. __Flask Web App__<br>
 - The flask web app including data visualizations using Plotly in the web app.
 
 
 ### An explanation of the files
-- ETL Pipeline Preparation.ipynb / ETL Pipeline Preparation.pdf # cleans data and stores in database
-- ML Pipeline Preparation.ipynb / ML Pipeline Preparation.pdf # trains classifier and saves
-- app
--- template
---- master.html  # main page of web app
---- go.html  # classification result page of web app
--- run.py  # Flask file that runs app
-- data
--- disaster_categories.csv  # data to process 
--- disaster_messages.csv  # data to process
--- process_data.py
--- InsertDatabaseName.db   # database to save clean data to
-- models
--- train_classifier.py
--- classifier.pkl  # saved model 
+1. ETL Pipeline Preparation.ipynb / ETL Pipeline Preparation.pdf # cleans data and stores in database
+2. ML Pipeline Preparation.ipynb / ML Pipeline Preparation.pdf # trains classifier and saves
+3. app
+3.1 template
+3.1.1 master.html  # main page of web app
+3.1.2 go.html  # classification result page of web app
+3.2 run.py  # Flask file that runs app
+4. data
+4.1 disaster_categories.csv  # data to process 
+4.2 disaster_messages.csv  # data to process
+4.3 process_data.py
+4.4 InsertDatabaseName.db   # database to save clean data to
+5. models
+5.1 train_classifier.py
+5.2 classifier.pkl  # saved model 
 
 
 ### How to run the Python scripts and web app
