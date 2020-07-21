@@ -1,8 +1,8 @@
 # Disaster Response Pipeline
 
-For this project I've applied skills to analyze disaster data from Figure Eight to build a model for an API that classifies disaster messages.
+For this project I applied data engineering skills to analyze disaster data from Figure Eight to build a model for an API that classifies disaster messages.
 
-Installations: In this project Python 3.x and the following Python libraries were installed:
+Installations: In this project Python 3.x and the following Python libraries were installed:<br>
 Pandas https://pandas.pydata.org/
 Numpy https://numpy.org/
 Plotly https://plotly.com/
