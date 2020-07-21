@@ -3,16 +3,16 @@
 For this project I applied data engineering skills to analyze disaster data from Figure Eight to build a model for an API that classifies disaster messages.
 
 Installations: In this project Python 3.x and the following Python libraries were installed:<br>
-Pandas https://pandas.pydata.org/
-Numpy https://numpy.org/
-Plotly https://plotly.com/
-Pickle https://docs.python.org/3/library/pickle.html
-Json https://www.json.org/
-Sqlalchemy https://www.sqlalchemy.org/
-Flask https://flask.palletsprojects.com/en/1.1.x/
-Re https://docs.python.org/3/library/re.html
-NLTK https://www.nltk.org/
-Sklearn https://scikit-learn.org/stable/
+Pandas https://pandas.pydata.org/<br>
+Numpy https://numpy.org/<br>
+Plotly https://plotly.com/<br>
+Pickle https://docs.python.org/3/library/pickle.html<br>
+Json https://www.json.org/<br>
+Sqlalchemy https://www.sqlalchemy.org/<br>
+Flask https://flask.palletsprojects.com/en/1.1.x/<br>
+Re https://docs.python.org/3/library/re.html<br>
+NLTK https://www.nltk.org/<br>
+Sklearn https://scikit-learn.org/stable/<br>
 
 
 ### There are 3 Components in this project:
@@ -38,18 +38,18 @@ In a Python script, train_classifier.py, there's a machine learning pipeline tha
 - ETL Pipeline Preparation.ipynb / ETL Pipeline Preparation.pdf # cleans data and stores in database
 - ML Pipeline Preparation.ipynb / ML Pipeline Preparation.pdf # trains classifier and saves
 - app
-| - template
-| |- master.html  # main page of web app
-| |- go.html  # classification result page of web app
-|- run.py  # Flask file that runs app
+-- template
+--- master.html  # main page of web app
+--- go.html  # classification result page of web app
+-- run.py  # Flask file that runs app
 - data
-|- disaster_categories.csv  # data to process 
-|- disaster_messages.csv  # data to process
-|- process_data.py
-|- InsertDatabaseName.db   # database to save clean data to
+-- disaster_categories.csv  # data to process 
+-- disaster_messages.csv  # data to process
+-- process_data.py
+-- InsertDatabaseName.db   # database to save clean data to
 - models
-|- train_classifier.py
-|- classifier.pkl  # saved model 
+-- train_classifier.py
+-- classifier.pkl  # saved model 
 
 
 ### How to run the Python scripts and web app
