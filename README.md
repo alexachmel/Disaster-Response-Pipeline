@@ -36,21 +36,21 @@ In a Python script, train_classifier.py, there's a machine learning pipeline tha
 
 
 ### An explanation of the files
-1. ETL Pipeline Preparation.ipynb / ETL Pipeline Preparation.pdf # cleans data and stores in database
-2. ML Pipeline Preparation.ipynb / ML Pipeline Preparation.pdf # trains classifier and saves
-3. app
-3.1. template
-3.1.1. master.html  # main page of web app
-3.1.2. go.html  # classification result page of web app
-3.2 run.py  # Flask file that runs app
-4. data
-4.1 disaster_categories.csv  # data to process 
-4.2 disaster_messages.csv  # data to process
-4.3 process_data.py
-4.4 InsertDatabaseName.db   # database to save clean data to
-5. models
-5.1 train_classifier.py
-5.2 classifier.pkl  # saved model 
+1. ETL Pipeline Preparation.ipynb / ETL Pipeline Preparation.pdf # cleans data and stores in database<br>
+2. ML Pipeline Preparation.ipynb / ML Pipeline Preparation.pdf # trains classifier and saves<br>
+3. app<br>
+3.1 template<br>
+3.1.1 master.html  # main page of web app<br>
+3.1.2 go.html  # classification result page of web app<br>
+3.2 run.py  # Flask file that runs app<br>
+4. data<br>
+4.1 disaster_categories.csv  # data to process <br>
+4.2 disaster_messages.csv  # data to process<br>
+4.3 process_data.py<br>
+4.4 InsertDatabaseName.db   # database to save clean data to<br>
+5. models<br>
+5.1 train_classifier.py<br>
+5.2 classifier.pkl  # saved model <br>
 
 
 ### How to run the Python scripts and web app
